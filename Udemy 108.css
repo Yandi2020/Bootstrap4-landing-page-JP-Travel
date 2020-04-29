@@ -1,0 +1,49 @@
+body{
+    background: #e3f542;
+    font-family: 'Yrsa', serif;
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+
+#mainNavbar .nav-link{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#mainNavbar .navbar-brand{
+    color: #EA1C2C;
+}
+
+#mainNavbar .nav-link{
+    color: white;
+}
+
+#mainNavbar .nav-link:hover{
+    color: lightgrey;
+}
+
+.space {
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+
+.card-text{
+    font-size: 1.25rem;
+}
+
+i {
+ font-size: 1.5rem;
+}
+
+/* change navbar background color when scrolled !important */
+.navbar.scrolled {
+    background: rgba(159, 137, 137, 0.577);
+    transition: background 500ms;
+}
+
+.card-img-overlay {
+    margin-top: 15%;
+}
