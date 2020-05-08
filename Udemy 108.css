@@ -47,3 +47,9 @@ i {
 .card-img-overlay {
     margin-top: 15%;
 }
+
+@media screen and (max-width:991px){
+    section.container-fluid p.card-text{
+        opacity: 0;
+    }
+}
